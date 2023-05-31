@@ -2,6 +2,31 @@
  * Custom CSS
  */
 
-:root {
+/*:root {
   --bs-body-bg: var(--bs-gray-100);
+}*/
+
+
+.overlay h1 {
+  background-color: aqua;
+  font-size: 5rem;
+}
+
+.vh-75 {
+
+  height: 75vh
+}
+
+.vh-25 {
+  height: calc(25vh - 40px);
+  text-transform: uppercase;
+ /* background-color: rgba(0, 0, 0, 0.25);*/
+}
+
+.bi {
+  fill: var(--bs-secondary);
+}
+
+.bi-n {
+  fill: var(--bs-light);
 }
